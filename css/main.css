@@ -43,7 +43,7 @@ img{
     height:25vh;
     background-color:white;
     position:relative;
-    background: /*linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),*/ url("images/back.jpg") center/cover no-repeat;
+    background: /*linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),*/ url("/images/back.jpg") center/cover no-repeat;
     /*background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("image/img one.jpg") center/cover no-repeat;*/
 }
 .h4{
@@ -133,7 +133,7 @@ img{
     color:white;
     width: 80vw;
     margin: 0 auto;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("images/banner-img.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("/images/banner-img.jpg") center/cover no-repeat;
 
 }
 .head-bottom h2{
@@ -146,8 +146,8 @@ img{
     opacity: 0.7;
     font-size: 20px;
     margin: 45px auto;
-    width: 60vw
-    color:white;
+    width: 60vw;
+    color: white;
 }
 
 .head-bottom2{
@@ -157,7 +157,7 @@ img{
     width: 80vw;
     height:10vw;
     margin: 0 auto;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("images/contact.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("/images/contact.jpg") center/cover no-repeat;
 
 }
 .head-bottom2 h2{
@@ -399,7 +399,7 @@ img{
 .customers{
     margin-top: 40px;
     padding: 40px 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/customer-banner.jpg") center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/customer-banner.jpg") center/cover no-repeat fixed;
 }
 .customer{
     background: #fff;

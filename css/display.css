@@ -23,7 +23,7 @@ body{
     height:25vh;
     background-color:white;
     position:relative;
-    background: /*linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),*/ url("images/back.jpg") center/cover no-repeat;
+    background: /*linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),*/ url("/images/back.jpg") center/cover no-repeat;
     /*background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("image/img one.jpg") center/cover no-repeat;*/
 }
 .h4{
