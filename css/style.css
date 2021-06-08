@@ -9,7 +9,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Open Sans';
-    font-style: italic;
+   /* font-style: italic;*/
     font-weight: 300;
 }
 html{
@@ -32,9 +32,9 @@ body{
 #header{
 	width:100%;
 	height:25vh;
-	background-color:white;
+background-color:#A3E4D7;
 	position:relative;
-	background: /*linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),*/ url("../images/back.jpg") center/cover no-repeat;
+	
 	/*background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("image/img one.jpg") center/cover no-repeat;*/
 }
 .h4{
@@ -56,7 +56,7 @@ body{
 	background-color: #fff;
 	color:#333;
 	font-size: 2rem;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	font-weight: 100;
 	height:10vh;
 	/*position: fixed;
@@ -87,12 +87,12 @@ body{
 	display: inline-block;
 	padding:0 1.5rem;
 	cursor: pointer;
-	box-shadow: 2px 2px 5px #3acabb;
+	/*box-shadow: 2px 2px 5px #3acabb;*/
 }
 .navbar ul li:hover{
-	background-color: #3acabb;
-	color:#fff;
-	border-radius: 80%;
+	/*background-color: #3acabb;*/
+	color:#3acabb;
+	/*border-radius: 80%;*/
 }
 .dropdown-content {
   display: none;

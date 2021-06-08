@@ -8,7 +8,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Open Sans';
-    font-style: italic;
+/*    font-style: italic;*/
     font-weight: 300;
 }
 html{
@@ -41,9 +41,9 @@ img{
 #header{
     width:100%;
     height:25vh;
-    background-color:white;
+    background-color:  #A3E4D7;
     position:relative;
-    background: /*linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),*/ url("../images/back.jpg") center/cover no-repeat;
+    
     /*background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("image/img one.jpg") center/cover no-repeat;*/
 }
 .h4{
@@ -65,7 +65,7 @@ img{
     background-color: #fff;
     color:#333;
     font-size: 2rem;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-weight: 100;
     height:10vh;
     
@@ -91,12 +91,12 @@ img{
     display: inline-block;
     padding:0 1.5rem;
     cursor: pointer;
-    box-shadow: 2px 2px 5px #3acabb;
+    /*box-shadow: 2px 2px 5px #3acabb;*/
 }
 .navbar ul li:hover{
-    background-color: #3acabb;
-    color:#fff;
-    border-radius: 80%;
+  /*  background-color: #3acabb;*/
+    color:#3acabb;
+    /*border-radius: 80%;*/
 }
 .dropdown-content {
   display: none;
@@ -315,7 +315,7 @@ img{
 
 
 .service-content button a{
-  color:white;
+  color:black;
   font-family:Helvetica, sans-serif;
   font-weight:bold;
   font-size:16px;
@@ -327,7 +327,7 @@ img{
   padding:20px 40px;
   
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  text-shadow: 0px 1px 0px #000;
+  /*text-shadow: 0px 1px 0px #000;*/
   filter: dropshadow(color=#000, offx=0px, offy=1px);
   
   -webkit-box-shadow:inset 0 1px 0 #3acabb, 0 10px 0 #3acabb;
@@ -385,14 +385,17 @@ img{
 .room{
     margin: 45px 0;
     padding-bottom: 25px;
-    background: var(--dark);
-    color: #fff;
+    padding-top: 40px;
+  /*  background: var(--dark);*/
+   /* color: #fff;*/
+   color: black;
 }
 .room-text{
     padding: 5px 20px;
 }
 .room-text h3{
-    font-size: 24px;
+    font-size: 30px;
+    font-weight: bold;
 }
 .room-text ul{
     list-style-type: none;
@@ -426,6 +429,7 @@ img{
     .rooms-container{
         display: flex;
         flex-wrap: wrap;
+        padding-bottom: 40px;
     }
     .room{
         flex: 0 0 calc(50% - 20px);
@@ -435,6 +439,7 @@ img{
 @media(min-width: 1370px){
     .rooms-container{
         flex-direction: column;
+        padding-bottom: 30px;
     }
     .room{
         display: flex;
@@ -450,9 +455,9 @@ img{
     .room-text{
         flex: 1;
     }
-    .room:nth-child(even){
+   /* .room:nth-child(even){
         flex-direction: row-reverse;
-    }
+    }*/
 }
 
 
