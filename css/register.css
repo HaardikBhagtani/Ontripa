@@ -17,6 +17,10 @@ body{
    /* font-style: italic;*/
     font-weight: 300;
 }
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
 
 #header{
     width:100%;
