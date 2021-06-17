@@ -226,7 +226,7 @@ a, a:hover, a:focus, a:active {
       }
       .week {
       display:flex;
-      justfiy-content:space-between;
+      justify-content:space-between;
       }
       .colums {
       display:flex;
