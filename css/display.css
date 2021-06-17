@@ -180,21 +180,25 @@ body{
     display: table;
   }
 @media screen and (max-width: 600px) {
+    .topnav button {
+        
+        width: 10%;
+        
+      }
     .topnav input[type=text] {
-      float: none;
+      float: right;
       display: block;
       text-align: left;
-      width: 100%;
-      margin: 0;
-      padding: 14px;
+      width: 50%;
+      padding: 6px;
     }
     .topnav input[type=text] {
-        border: 1px solid #ccc;
+        border: 1px solid grey;
       }
   }
   
 
-}
+
 .sec-width{
     width: 85vw;
     margin: 0 auto!important;
@@ -276,9 +280,9 @@ body{
     .room-text{
         flex: 1;
     }
-    .room nth-child(even){
-        /*flex-direction: row-reverse;*/
-    }
+    /* .room nth-child (even){
+        flex-direction: row-reverse;
+    } */
 }
 
 
