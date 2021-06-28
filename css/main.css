@@ -79,11 +79,13 @@ img{
 }
 .logo{
     float: left;
+    padding-left: 60px;
     font-weight: bold;
 }
 
 .navbar ul{
     float:right;
+    padding-right: 60px;
     list-style: none;
     
 }
@@ -125,6 +127,82 @@ img{
     /*width:100%*/
     top:0;
 /*   z-index: 20;*/
+}
+@media(max-width: 950px){
+  .navbar{
+    width: 100%;
+    background-color: #fff;
+    color:#333;
+    font-size: 1.5rem;
+    font-weight: 100;
+    height:8vh;   
+}
+
+.navbar ul li{
+    /*display: inline-block;*/
+    padding:0 1.5rem;
+    cursor: pointer;
+    /*box-shadow: 2px 2px 5px #3acabb;*/
+}
+
+}
+
+@media(max-width: 795px){
+   .navbar{
+    width: 100%;
+    background-color: #fff;
+    color:#333;
+    /*font-size: 0.3rem;*/
+  font-size: 1.5rem;
+    font-weight: 100;
+    height:8vh;
+    
+    
+}
+.navbar ul li{
+    display: inline-block;
+    padding:0 0.8rem;
+    cursor: pointer;
+   
+}
+}
+@media(max-width: 548px){
+   .navbar{
+    width: 100%;
+    background-color: #fff;
+    color:#333;
+    font-size: 1.1rem;
+    
+    font-weight: 100;
+    height:5vh;
+  
+    
+}
+.navbar ul li{
+    display: inline-block;
+    padding:0 0.3rem;
+    cursor: pointer;
+   
+}
+}
+@media(max-width: 300px){
+   .navbar{
+    width: 100%;
+    background-color: #fff;
+    color:#333;
+    font-size: 0.8rem;
+    
+    font-weight: 100;
+    height:5vh;
+  
+    
+}
+.navbar ul li{
+    display: inline-block;
+    padding:0 0.1rem;
+    cursor: pointer;
+   
+}
 }
 
 .head-bottom{
@@ -189,7 +267,7 @@ img{
 .head-btn:hover{
     background: transparent;
 }*/
-@media(max-width: 500px){
+/*@media(max-width: 500px){
     .head-btn{
         font-size: 17px;
     }
@@ -201,7 +279,7 @@ img{
         margin: 20px auto;
     }
 }
-
+*/
 
 
 
